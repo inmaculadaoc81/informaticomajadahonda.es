@@ -409,3 +409,62 @@ tecnológico, no colores llamativos ni disruptivos"):
   paleta.
 - Sin cambios en el verde de WhatsApp, el rojo de YouTube ni la banda
   de cookies (colores de terceros / estándar de familia).
+
+────────────────────────────────────────────────────────────
+ADAPTACIÓN A MAJAHONDATECH MANTENIMIENTO INFORMÁTICO MAJAHONDA
+(repositorio clonado a partir de RetiroTech)
+────────────────────────────────────────────────────────────
+
+⚠️ NOTA SOBRE LA GRAFÍA — el cliente escribió el nombre del municipio
+como "Majahonda" (sin la "d" de "-dahonda") tanto en la marca como en
+el título, mientras que el dominio proporcionado sí usa la grafía
+correcta "majadahonda.es". Se ha respetado tal cual lo indicó el
+cliente: "Majahonda" en marca/título/zona/JSON-LD, y "majadahonda" en
+el dominio (tal como se dio). Si "Majahonda" fue un error tipográfico
+y se quería "Majadahonda" en todos los textos, avisar para corregirlo.
+
+MARCA Y TEXTOS:
+- "RetiroTech" → "MajahondaTech" en cabecera, pie de página, JSON-LD
+  (name) y mensaje prellenado de WhatsApp ("¡Hola MajahondaTech").
+- Title: "MajahondaTech Mantenimiento Informático Majahonda" (texto
+  exacto indicado por el cliente, sin "|"). Meta description, og:title
+  y og:description reescritos mencionando Majahonda, Madrid.
+- H1 propio de 9 palabras exactas, distinto de los de los repos
+  hermanos: "Convertimos los problemas técnicos en soluciones rápidas
+  y claras."
+- Fila "Zona": "Retiro, Madrid" → "Majahonda, Madrid".
+- FAQ "¿Trabajáis solo en Retiro?" → "¿Trabajáis solo en Majahonda?",
+  con la respuesta adaptada a "Majahonda y alrededores" (en vez de "el
+  resto de Madrid", ya que Majadahonda es un municipio propio, no un
+  distrito de la capital).
+- Tarjeta de información de contacto: el h2 actualizado al título
+  exacto de esta web: "MajahondaTech Mantenimiento Informático
+  Majahonda" (se corrigió aparte, ya que el rebranding automático solo
+  cambiaba el nombre de marca y dejaba "| Mantenimiento Informático en
+  Retiro" sin tocar).
+- JSON-LD: description y areaServed actualizados a Majahonda, Madrid.
+
+DOMINIO Y ENLACES:
+- canonical, og:url y JSON-LD "url" → https://mantenimientoinformaticomajadahonda.es/
+  (dominio indicado directamente por el cliente, con https en vez del
+  http:// que se pasó).
+- sitemap.xml y robots.txt actualizados al nuevo dominio.
+- Enlace de Google Maps actualizado en las 4 ubicaciones del sitio a
+  https://maps.app.goo.gl/VrrUhhpB64kLt39Q8, proporcionado por el
+  cliente.
+
+TELÉFONO Y WHATSAPP: sin cambios, mismo número compartido por toda la
+familia.
+
+COLOR (regla permanente de la subfamilia — siempre se cambia):
+- Nueva paleta azul cobalto/royal, vivo y muy saturado, distinta de
+  las nueve anteriores de la subfamilia: --blue:#5b5fa8→#1a3fd6,
+  --indigo:#3d4f73→#10276b, --cyan:#8f93e0→#6f8fff. Aunque comparte la
+  familia "azul" con PymeTech (más claro/cian) y RetiroTech (más
+  apagado/grisáceo), este es notablemente más puro y saturado que
+  ambos — mismo criterio de "muted vs vivid al mismo tono" ya usado
+  entre TecPyme/VicalvaroTech y RetiroTech/PymeSolutions.
+- Todos los tonos derivados (fondos de iconos claros, textos en color
+  sobre fondo oscuro, badges, bordes de hover, sombras de botones)
+  recalculados a la misma paleta, mismo contraste que antes.
+- Isotipo (assets/isotipo.svg) recoloreado a juego.
